@@ -1039,6 +1039,17 @@ def cli() -> None:
     is_flag=True,
     help=" to dump the s and z embeddings into a npz file. Default is False.",
 )
+@click.option(
+    "--no_inference",
+    is_flag=True,
+    help="Only run preprocessing (MSA + tokenization), skip structure prediction.",
+)
+@click.option(
+    "--num_particles",
+    type=int,
+    help="Number of FK steering particles. Reduces VRAM with fewer particles. Default is 3.",
+    default=3,
+)
 def predict(  # noqa: C901, PLR0915, PLR0912
     data: str,
     out_dir: str,
@@ -1077,6 +1088,8 @@ def predict(  # noqa: C901, PLR0915, PLR0912
     num_subsampled_msa: int = 1024,
     no_kernels: bool = False,
     write_embeddings: bool = False,
+    no_inference: bool = False,
+    num_particles: int = 3,
 ) -> None:
     """Run predictions with Boltz."""
     # If cpu, write a friendly warning
@@ -1178,6 +1191,11 @@ def predict(  # noqa: C901, PLR0915, PLR0912
 
     # Load manifest
     manifest = Manifest.load(out_dir / "processed" / "manifest.json")
+
+    # Stop here if only preprocessing was requested
+    if no_inference:
+        click.echo("Preprocessing complete (--no_inference set, skipping structure prediction).")
+        return
 
     # Filter out existing predictions
     filtered_manifest = filter_inputs_structure(
@@ -1309,6 +1327,7 @@ def predict(  # noqa: C901, PLR0915, PLR0912
         steering_args = BoltzSteeringParams()
         steering_args.fk_steering = use_potentials
         steering_args.physical_guidance_update = use_potentials
+        steering_args.num_particles = num_particles
 
         model_cls = Boltz2 if model == "boltz2" else Boltz1
         model_module = model_cls.load_from_checkpoint(

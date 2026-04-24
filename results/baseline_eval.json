@@ -1,0 +1,750 @@
+{
+  "baseline1_no_steering": {
+    "7ZGE": {
+      "type": "protein-ligand",
+      "complex_plddt": 0.8717849850654602,
+      "geometry": {
+        "bond_lengths": {
+          "pass": true,
+          "violations": 0,
+          "total": 795,
+          "viol_rate": 0.0
+        },
+        "bond_angles": {
+          "pass": true,
+          "violations": 0,
+          "total": 398,
+          "viol_rate": 0.0
+        },
+        "internal_clash": {
+          "pass": true,
+          "violations": 1183,
+          "total": 148356,
+          "viol_rate": 0.007974062390466176
+        },
+        "chirality": {
+          "pass": true,
+          "violations": 0,
+          "total": 189,
+          "viol_rate": 0.0
+        },
+        "stereo_bond": {
+          "pass": true,
+          "violations": 0,
+          "total": 198,
+          "viol_rate": 0.0
+        },
+        "interchain_clash": {
+          "pass": true,
+          "violations": 0,
+          "total": 6156,
+          "viol_rate": 0.0
+        },
+        "summary": {
+          "checks_passed": 6,
+          "total_checks": 6,
+          "pass_rate": 1.0
+        }
+      },
+      "posebusters": {
+        "applicable": true,
+        "checks": {
+          "bond_lengths": true,
+          "bond_angles": true,
+          "internal_steric_clash": true,
+          "passes_valence_checks": true,
+          "double_bond_flatness": true,
+          "minimum_distance_to_protein": false
+        },
+        "checks_passed": 5,
+        "total_checks": 6,
+        "pass_rate": 0.8333333333333334
+      }
+    },
+    "8A1Q": {
+      "type": "homodimer",
+      "complex_plddt": 0.8214628100395203,
+      "geometry": {
+        "bond_lengths": {
+          "pass": true,
+          "violations": 0,
+          "total": 1862,
+          "viol_rate": 0.0
+        },
+        "bond_angles": {
+          "pass": true,
+          "violations": 0,
+          "total": 932,
+          "viol_rate": 0.0
+        },
+        "internal_clash": {
+          "pass": true,
+          "violations": 2679,
+          "total": 339360,
+          "viol_rate": 0.007894271570014145
+        },
+        "chirality": {
+          "pass": true,
+          "violations": 0,
+          "total": 424,
+          "viol_rate": 0.0
+        },
+        "stereo_bond": {
+          "pass": true,
+          "violations": 0,
+          "total": 464,
+          "viol_rate": 0.0
+        },
+        "interchain_clash": {
+          "pass": true,
+          "violations": 0,
+          "total": 41209,
+          "viol_rate": 0.0
+        },
+        "summary": {
+          "checks_passed": 6,
+          "total_checks": 6,
+          "pass_rate": 1.0
+        }
+      },
+      "posebusters": {
+        "applicable": false
+      }
+    },
+    "8C4I": {
+      "type": "protein-RNA",
+      "complex_plddt": 0.8344318866729736,
+      "geometry": {
+        "bond_lengths": {
+          "pass": true,
+          "violations": 0,
+          "total": 903,
+          "viol_rate": 0.0
+        },
+        "bond_angles": {
+          "pass": true,
+          "violations": 0,
+          "total": 452,
+          "viol_rate": 0.0
+        },
+        "internal_clash": {
+          "pass": true,
+          "violations": 1626,
+          "total": 202368,
+          "viol_rate": 0.008034867172675523
+        },
+        "chirality": {
+          "pass": true,
+          "violations": 0,
+          "total": 213,
+          "viol_rate": 0.0
+        },
+        "stereo_bond": {
+          "pass": true,
+          "violations": 0,
+          "total": 225,
+          "viol_rate": 0.0
+        },
+        "interchain_clash": {
+          "pass": true,
+          "violations": 0,
+          "total": 47712,
+          "viol_rate": 0.0
+        },
+        "summary": {
+          "checks_passed": 6,
+          "total_checks": 6,
+          "pass_rate": 1.0
+        }
+      },
+      "posebusters": {
+        "applicable": false
+      }
+    },
+    "8D7M": {
+      "type": "monomer",
+      "complex_plddt": 0.9454244375228882,
+      "geometry": {
+        "bond_lengths": {
+          "pass": true,
+          "violations": 0,
+          "total": 1203,
+          "viol_rate": 0.0
+        },
+        "bond_angles": {
+          "pass": true,
+          "violations": 0,
+          "total": 602,
+          "viol_rate": 0.0
+        },
+        "internal_clash": {
+          "pass": true,
+          "violations": 1761,
+          "total": 230832,
+          "viol_rate": 0.0076289249324183826
+        },
+        "chirality": {
+          "pass": true,
+          "violations": 0,
+          "total": 276,
+          "viol_rate": 0.0
+        },
+        "stereo_bond": {
+          "pass": true,
+          "violations": 0,
+          "total": 300,
+          "viol_rate": 0.0
+        },
+        "interchain_clash": {
+          "pass": true,
+          "violations": 0,
+          "total": 0,
+          "viol_rate": 0.0
+        },
+        "summary": {
+          "checks_passed": 6,
+          "total_checks": 6,
+          "pass_rate": 1.0
+        }
+      },
+      "posebusters": {
+        "applicable": false
+      }
+    },
+    "8GG5": {
+      "type": "protein-protein",
+      "complex_plddt": 0.811576783657074,
+      "geometry": {
+        "bond_lengths": {
+          "pass": true,
+          "violations": 0,
+          "total": 1802,
+          "viol_rate": 0.0
+        },
+        "bond_angles": {
+          "pass": true,
+          "violations": 0,
+          "total": 902,
+          "viol_rate": 0.0
+        },
+        "internal_clash": {
+          "pass": true,
+          "violations": 2719,
+          "total": 341664,
+          "viol_rate": 0.00795811089257282
+        },
+        "chirality": {
+          "pass": true,
+          "violations": 0,
+          "total": 436,
+          "viol_rate": 0.0
+        },
+        "stereo_bond": {
+          "pass": true,
+          "violations": 0,
+          "total": 449,
+          "viol_rate": 0.0
+        },
+        "interchain_clash": {
+          "pass": true,
+          "violations": 9,
+          "total": 56992,
+          "viol_rate": 0.00015791690061763055
+        },
+        "summary": {
+          "checks_passed": 6,
+          "total_checks": 6,
+          "pass_rate": 1.0
+        }
+      },
+      "posebusters": {
+        "applicable": false
+      }
+    },
+    "ligand": {
+      "type": "protein-ligand",
+      "complex_plddt": 0.9108524322509766,
+      "geometry": {
+        "bond_lengths": {
+          "pass": true,
+          "violations": 0,
+          "total": 3076,
+          "viol_rate": 0.0
+        },
+        "bond_angles": {
+          "pass": true,
+          "violations": 0,
+          "total": 1540,
+          "viol_rate": 0.0
+        },
+        "internal_clash": {
+          "pass": true,
+          "violations": 4379,
+          "total": 559220,
+          "viol_rate": 0.007830549694216945
+        },
+        "chirality": {
+          "pass": true,
+          "violations": 0,
+          "total": 708,
+          "viol_rate": 0.0
+        },
+        "stereo_bond": {
+          "pass": true,
+          "violations": 0,
+          "total": 766,
+          "viol_rate": 0.0
+        },
+        "interchain_clash": {
+          "pass": true,
+          "violations": 0,
+          "total": 80213,
+          "viol_rate": 0.0
+        },
+        "summary": {
+          "checks_passed": 6,
+          "total_checks": 6,
+          "pass_rate": 1.0
+        }
+      },
+      "posebusters": {
+        "applicable": true,
+        "checks": {
+          "bond_lengths": true,
+          "bond_angles": true,
+          "internal_steric_clash": true,
+          "passes_valence_checks": true,
+          "double_bond_flatness": true,
+          "minimum_distance_to_protein": false
+        },
+        "checks_passed": 5,
+        "total_checks": 6,
+        "pass_rate": 0.8333333333333334
+      }
+    },
+    "cyclic_prot": {
+      "type": "cyclic-peptide",
+      "complex_plddt": 0.6937176585197449,
+      "geometry": {
+        "bond_lengths": {
+          "pass": true,
+          "violations": 0,
+          "total": 51,
+          "viol_rate": 0.0
+        },
+        "bond_angles": {
+          "pass": true,
+          "violations": 0,
+          "total": 26,
+          "viol_rate": 0.0
+        },
+        "internal_clash": {
+          "pass": true,
+          "violations": 73,
+          "total": 4186,
+          "viol_rate": 0.01743908265647396
+        },
+        "chirality": {
+          "pass": true,
+          "violations": 0,
+          "total": 12,
+          "viol_rate": 0.0
+        },
+        "stereo_bond": {
+          "pass": true,
+          "violations": 0,
+          "total": 12,
+          "viol_rate": 0.0
+        },
+        "interchain_clash": {
+          "pass": true,
+          "violations": 0,
+          "total": 0,
+          "viol_rate": 0.0
+        },
+        "summary": {
+          "checks_passed": 6,
+          "total_checks": 6,
+          "pass_rate": 1.0
+        }
+      },
+      "posebusters": {
+        "applicable": false
+      }
+    }
+  },
+  "baseline2_full_steering": {
+    "7ZGE": {
+      "type": "protein-ligand",
+      "complex_plddt": 0.8653811812400818,
+      "geometry": {
+        "bond_lengths": {
+          "pass": true,
+          "violations": 0,
+          "total": 795,
+          "viol_rate": 0.0
+        },
+        "bond_angles": {
+          "pass": true,
+          "violations": 0,
+          "total": 398,
+          "viol_rate": 0.0
+        },
+        "internal_clash": {
+          "pass": true,
+          "violations": 1182,
+          "total": 148356,
+          "viol_rate": 0.00796732184744803
+        },
+        "chirality": {
+          "pass": true,
+          "violations": 0,
+          "total": 189,
+          "viol_rate": 0.0
+        },
+        "stereo_bond": {
+          "pass": true,
+          "violations": 0,
+          "total": 198,
+          "viol_rate": 0.0
+        },
+        "interchain_clash": {
+          "pass": true,
+          "violations": 0,
+          "total": 6156,
+          "viol_rate": 0.0
+        },
+        "summary": {
+          "checks_passed": 6,
+          "total_checks": 6,
+          "pass_rate": 1.0
+        }
+      },
+      "posebusters": {
+        "applicable": true,
+        "checks": {
+          "bond_lengths": true,
+          "bond_angles": true,
+          "internal_steric_clash": true,
+          "passes_valence_checks": true,
+          "double_bond_flatness": true,
+          "minimum_distance_to_protein": true
+        },
+        "checks_passed": 6,
+        "total_checks": 6,
+        "pass_rate": 1.0
+      }
+    },
+    "8A1Q": {
+      "type": "homodimer",
+      "complex_plddt": 0.8217048048973083,
+      "geometry": {
+        "bond_lengths": {
+          "pass": true,
+          "violations": 1,
+          "total": 1862,
+          "viol_rate": 0.0005370569280343716
+        },
+        "bond_angles": {
+          "pass": true,
+          "violations": 0,
+          "total": 932,
+          "viol_rate": 0.0
+        },
+        "internal_clash": {
+          "pass": true,
+          "violations": 2678,
+          "total": 339360,
+          "viol_rate": 0.007891324846770392
+        },
+        "chirality": {
+          "pass": true,
+          "violations": 0,
+          "total": 424,
+          "viol_rate": 0.0
+        },
+        "stereo_bond": {
+          "pass": true,
+          "violations": 0,
+          "total": 464,
+          "viol_rate": 0.0
+        },
+        "interchain_clash": {
+          "pass": true,
+          "violations": 0,
+          "total": 41209,
+          "viol_rate": 0.0
+        },
+        "summary": {
+          "checks_passed": 6,
+          "total_checks": 6,
+          "pass_rate": 1.0
+        }
+      },
+      "posebusters": {
+        "applicable": false
+      }
+    },
+    "8C4I": {
+      "type": "protein-RNA",
+      "complex_plddt": 0.8345896601676941,
+      "geometry": {
+        "bond_lengths": {
+          "pass": true,
+          "violations": 0,
+          "total": 903,
+          "viol_rate": 0.0
+        },
+        "bond_angles": {
+          "pass": true,
+          "violations": 0,
+          "total": 452,
+          "viol_rate": 0.0
+        },
+        "internal_clash": {
+          "pass": true,
+          "violations": 1623,
+          "total": 202368,
+          "viol_rate": 0.008020042694497154
+        },
+        "chirality": {
+          "pass": true,
+          "violations": 0,
+          "total": 213,
+          "viol_rate": 0.0
+        },
+        "stereo_bond": {
+          "pass": true,
+          "violations": 0,
+          "total": 225,
+          "viol_rate": 0.0
+        },
+        "interchain_clash": {
+          "pass": true,
+          "violations": 0,
+          "total": 47712,
+          "viol_rate": 0.0
+        },
+        "summary": {
+          "checks_passed": 6,
+          "total_checks": 6,
+          "pass_rate": 1.0
+        }
+      },
+      "posebusters": {
+        "applicable": false
+      }
+    },
+    "8D7M": {
+      "type": "monomer",
+      "complex_plddt": 0.9454308152198792,
+      "geometry": {
+        "bond_lengths": {
+          "pass": true,
+          "violations": 0,
+          "total": 1203,
+          "viol_rate": 0.0
+        },
+        "bond_angles": {
+          "pass": true,
+          "violations": 0,
+          "total": 602,
+          "viol_rate": 0.0
+        },
+        "internal_clash": {
+          "pass": true,
+          "violations": 1764,
+          "total": 230832,
+          "viol_rate": 0.007641921397379912
+        },
+        "chirality": {
+          "pass": true,
+          "violations": 0,
+          "total": 276,
+          "viol_rate": 0.0
+        },
+        "stereo_bond": {
+          "pass": true,
+          "violations": 0,
+          "total": 300,
+          "viol_rate": 0.0
+        },
+        "interchain_clash": {
+          "pass": true,
+          "violations": 0,
+          "total": 0,
+          "viol_rate": 0.0
+        },
+        "summary": {
+          "checks_passed": 6,
+          "total_checks": 6,
+          "pass_rate": 1.0
+        }
+      },
+      "posebusters": {
+        "applicable": false
+      }
+    },
+    "8GG5": {
+      "type": "protein-protein",
+      "complex_plddt": 0.809956967830658,
+      "geometry": {
+        "bond_lengths": {
+          "pass": true,
+          "violations": 3,
+          "total": 1802,
+          "viol_rate": 0.001664816870144284
+        },
+        "bond_angles": {
+          "pass": true,
+          "violations": 1,
+          "total": 902,
+          "viol_rate": 0.0011086474501108647
+        },
+        "internal_clash": {
+          "pass": true,
+          "violations": 2722,
+          "total": 341664,
+          "viol_rate": 0.00796689144890887
+        },
+        "chirality": {
+          "pass": true,
+          "violations": 0,
+          "total": 436,
+          "viol_rate": 0.0
+        },
+        "stereo_bond": {
+          "pass": true,
+          "violations": 0,
+          "total": 449,
+          "viol_rate": 0.0
+        },
+        "interchain_clash": {
+          "pass": true,
+          "violations": 0,
+          "total": 56992,
+          "viol_rate": 0.0
+        },
+        "summary": {
+          "checks_passed": 6,
+          "total_checks": 6,
+          "pass_rate": 1.0
+        }
+      },
+      "posebusters": {
+        "applicable": false
+      }
+    },
+    "ligand": {
+      "type": "protein-ligand",
+      "complex_plddt": 0.9121676683425903,
+      "geometry": {
+        "bond_lengths": {
+          "pass": true,
+          "violations": 0,
+          "total": 3076,
+          "viol_rate": 0.0
+        },
+        "bond_angles": {
+          "pass": true,
+          "violations": 0,
+          "total": 1540,
+          "viol_rate": 0.0
+        },
+        "internal_clash": {
+          "pass": true,
+          "violations": 4386,
+          "total": 559220,
+          "viol_rate": 0.007843067129215694
+        },
+        "chirality": {
+          "pass": true,
+          "violations": 0,
+          "total": 708,
+          "viol_rate": 0.0
+        },
+        "stereo_bond": {
+          "pass": true,
+          "violations": 0,
+          "total": 766,
+          "viol_rate": 0.0
+        },
+        "interchain_clash": {
+          "pass": true,
+          "violations": 0,
+          "total": 80213,
+          "viol_rate": 0.0
+        },
+        "summary": {
+          "checks_passed": 6,
+          "total_checks": 6,
+          "pass_rate": 1.0
+        }
+      },
+      "posebusters": {
+        "applicable": true,
+        "checks": {
+          "bond_lengths": true,
+          "bond_angles": true,
+          "internal_steric_clash": true,
+          "passes_valence_checks": true,
+          "double_bond_flatness": true,
+          "minimum_distance_to_protein": true
+        },
+        "checks_passed": 6,
+        "total_checks": 6,
+        "pass_rate": 1.0
+      }
+    },
+    "cyclic_prot": {
+      "type": "cyclic-peptide",
+      "complex_plddt": 0.6940955519676208,
+      "geometry": {
+        "bond_lengths": {
+          "pass": true,
+          "violations": 0,
+          "total": 51,
+          "viol_rate": 0.0
+        },
+        "bond_angles": {
+          "pass": true,
+          "violations": 0,
+          "total": 26,
+          "viol_rate": 0.0
+        },
+        "internal_clash": {
+          "pass": true,
+          "violations": 73,
+          "total": 4186,
+          "viol_rate": 0.01743908265647396
+        },
+        "chirality": {
+          "pass": true,
+          "violations": 0,
+          "total": 12,
+          "viol_rate": 0.0
+        },
+        "stereo_bond": {
+          "pass": true,
+          "violations": 0,
+          "total": 12,
+          "viol_rate": 0.0
+        },
+        "interchain_clash": {
+          "pass": true,
+          "violations": 0,
+          "total": 0,
+          "viol_rate": 0.0
+        },
+        "summary": {
+          "checks_passed": 6,
+          "total_checks": 6,
+          "pass_rate": 1.0
+        }
+      },
+      "posebusters": {
+        "applicable": false
+      }
+    }
+  }
+}
